@@ -24,25 +24,25 @@
 
         <div class="nav-left">
             <ul>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">SERVICIOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li><a href="#">À PROPOS</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACTS</a></li>
             </ul>
         </div>
 
         <div class="nav-rigth">
             <ul>
-                <li><a href="">FR</a></li>
-                <li><a href="">NL</a></li>
+                <li><a href="/">FR</a></li>
+                <li><a href="/indexnl.html">NL</a></li>
             </ul>
         </div>
 
         <!-- para el menu en mobil -->
             <div class="menu-mobil innactive">
                  <ul>
-                     <li><a href="/">NOSOTROS</a></li>
-                    <li><a href="/">SERVICIOS</a></li>
-                    <li><a href="/">CONTACTO</a></li>
+                    <li><a href="#">À PROPOS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACTS</a></li>
                 </ul>
             </div>
     </nav>
@@ -51,16 +51,22 @@
 
     <section class="container-carrousel content-carrousel">
         
-        <iframe class="video-carrousel" src="https://www.youtube.com/embed/X1sQg4nxEe8?&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+        <!-- <iframe class="video-carrousel" src="/videos/nombre_jardinier_video.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe> -->
+
+        <video class="video-carrousel" autoplay loop muted>
+            <source src="./videos/nombre_jardinier_video.mp4" type="video/mp4">
+          </video>
+
+   
 
         <div class="pantalla-carrousel"></div>
 
         <div class="info-carrousel">
-            <h1 class="title-carrousel">TITULO DE INFORMACIÓN IMPORTANTE</h1>
+            <h1 class="title-carrousel">DEVIS GRATUIT</h1>
             <p class="parrafo-carrousel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi doloribus fugiat accusantium laudantium numquam voluptatum, aliquam eos perferendis rem placeat incidunt fugit eum id! Corrupti nesciunt sequi rerum qui repudiandae!</p>
             
-            <a href="#" class="button-contact">CLICK AQUI PARA MÁS INFORMACIÓN</a>
+            <a href="#" class="button-contact">JE VUEX UN DEVIS</a>
             
             
         </div>
@@ -71,9 +77,9 @@
         <div class="cards-servicios"> 
 
             <div class="servicios-info">
-                <h2>JARDINES</h2>
+                <h2>JARDINAGE</h2>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
-                 <a href="#" class="button-masinfo-jardin">MÁS INFORMACIÓN</a>
+                 <a href="#" class="button-masinfo-jardin">EN SAVOIR PLUS</a>
              </div>
             <div class="servicio-imagen">
                 <img src="./images/Jardin.jpg" alt="">
@@ -86,9 +92,9 @@
                 <img src="./images/Construccion_pintura.jpeg" alt="">
             </div>
             <div class="servicios-info">
-                <h2>CONSTRUCCIÓN Y PINTURA</h2>
+                <h2>CONSTRUCTION ET PEINTURE</h2>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
-                 <a href="#" class="button-masinfo-constrution">MÁS INFORMACIÓN</a>
+                 <a href="#" class="button-masinfo-constrution">EN SAVOIR PLUS</a>
              </div>
 
         </div>
@@ -96,9 +102,9 @@
         <div class="cards-servicios"> 
 
             <div class="servicios-info">
-                <h2>ELECTRICIDAD</h2>
+                <h2>ÉLECTRICITÉ</h2>
                 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
-                 <a href="#" class="button-masinfo-electricite">MÁS INFORMACIÓN</a>
+                 <a href="#" class="button-masinfo-electricite">EN SAVOIR PLUS</a>
              </div>
             <div class="servicio-imagen">
                 <img src="./images/electricidad.jpg" alt="">
@@ -116,9 +122,9 @@
             </div>
 
             <div class="footer-datos">
-                <h4>Avenida Calle Km</h4>
-                <h4>+32 00 00 00 00 00</h4>
-                <h4>nombreempresa@gmail.com</h4>
+                <h4>Avenue Reine Astrid 483 1950 Kraainem</h4>
+                <h4>+32 49 20 71 114</h4>
+                <h4>jardinierspositifs@gmail.com</h4>
             </div>
 
             <div class="footer-redes-sociales">
@@ -149,8 +155,8 @@
       </div>
       <div class="modal-body">
         <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
-        <video class="video-jardin" autoplay loop muted>
-            <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
+        <video class="video-jardin" autoplay muted controls>
+            <source src="./videos/video_jp_jardin1.mp4" type="video/mp4">
           </video>
       </div>
       <div class="modal-footer">
@@ -171,13 +177,10 @@
               </div>
               <div class="modal-body">
                 <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
-                <video class="video-jardin" autoplay loop muted>
-                    <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
+                <video class="video-jardin" autoplay muted>
+                    <source src="./videos/video_jp_constrution.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
-        
-                <p>Some text in the Modal Body</p>
-                <p>Some other text...</p>
               </div>
               <div class="modal-footer">
                 <h3>Modal Footer</h3>
@@ -201,9 +204,6 @@
                             <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                           </video>
-                
-                        <p>Some text in the Modal Body</p>
-                        <p>Some other text...</p>
                       </div>
                       <div class="modal-footer">
                         <h3>Modal Footer</h3>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="/icons/10_logo.PNG">
+    <title>Jardiniers Positifs</title>
+</head>
+
+<body>
+
+    <div class="container-general"> 
+
+    <nav>
+        <img class="menu" src="/icons/icon_menu.svg" alt="menu">
+
+        <div class="navbar-title">
+            <img class="img-logo" src="./icons/10_logo.PNG" alt="logo_jardiniers_Positifs">
+            <h1>JARDINIERS POSITIFS</h1>
+        </div>
+
+        <div class="nav-left">
+            <ul>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-rigth">
+            <ul>
+                <li><a href="">FR</a></li>
+                <li><a href="">NL</a></li>
+            </ul>
+        </div>
+
+        <!-- para el menu en mobil -->
+            <div class="menu-mobil innactive">
+                 <ul>
+                     <li><a href="/">NOSOTROS</a></li>
+                    <li><a href="/">SERVICIOS</a></li>
+                    <li><a href="/">CONTACTO</a></li>
+                </ul>
+            </div>
+    </nav>
+
+
+
+    <section class="container-carrousel content-carrousel">
+        
+        <iframe class="video-carrousel" src="https://www.youtube.com/embed/X1sQg4nxEe8?&autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+
+        <div class="pantalla-carrousel"></div>
+
+        <div class="info-carrousel">
+            <h1 class="title-carrousel">TITULO DE INFORMACIÓN IMPORTANTE</h1>
+            <p class="parrafo-carrousel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi doloribus fugiat accusantium laudantium numquam voluptatum, aliquam eos perferendis rem placeat incidunt fugit eum id! Corrupti nesciunt sequi rerum qui repudiandae!</p>
+            
+            <a href="#" class="button-contact">CLICK AQUI PARA MÁS INFORMACIÓN</a>
+            
+            
+        </div>
+    </section>
+        
+    <section class="container-servicios">
+
+        <div class="cards-servicios"> 
+
+            <div class="servicios-info">
+                <h2>JARDINES</h2>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
+                 <a href="#" class="button-masinfo-jardin">MÁS INFORMACIÓN</a>
+             </div>
+            <div class="servicio-imagen">
+                <img src="./images/Jardin.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="cards-servicios"> 
+
+            <div class="servicio-imagen">
+                <img src="./images/Construccion_pintura.jpeg" alt="">
+            </div>
+            <div class="servicios-info">
+                <h2>CONSTRUCCIÓN Y PINTURA</h2>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
+                 <a href="#" class="button-masinfo-constrution">MÁS INFORMACIÓN</a>
+             </div>
+
+        </div>
+
+        <div class="cards-servicios"> 
+
+            <div class="servicios-info">
+                <h2>ELECTRICIDAD</h2>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, nesciunt?</P>
+                 <a href="#" class="button-masinfo-electricite">MÁS INFORMACIÓN</a>
+             </div>
+            <div class="servicio-imagen">
+                <img src="./images/electricidad.jpg" alt="">
+            </div>
+        </div>
+        </div>
+     </div>
+
+    </section>
+
+        <footer class="container-footer">
+            <div class="footer-title">
+                <img class="img-logo" src="./icons/10_logo.PNG" alt="logo_jardiniers_Positifs">
+                <h1>JARDINIERS POSITIFS</h1>
+            </div>
+
+            <div class="footer-datos">
+                <h4>Avenida Calle Km</h4>
+                <h4>+32 00 00 00 00 00</h4>
+                <h4>nombreempresa@gmail.com</h4>
+            </div>
+
+            <div class="footer-redes-sociales">
+                <a href=""><img src="./icons/icons8-facebook-nuevo-24.png" alt=""></a>
+                <a href=""></a><img src="./icons/icons8-instagram-32.png" alt=""></a>
+                <a href=""></a><img src="./icons/icons8-twitter-50.png" alt=""></a>
+                
+            </div>
+            
+            
+                
+      
+        </footer>
+        
+        <a href="https://api.whatsapp.com/send?phone=000000" target="_blank"><img class="whatsapp-contact" src="./icons/whatsapp (1).png" alt="whatsapp"></a>
+        
+    </div>
+
+    <!-- The Modal -->
+    <!-- Modal Jardin-->
+    <div id="myModalJardin" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>JARDIN</h2>
+      </div>
+      <div class="modal-body">
+        <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
+        <video class="video-jardin" autoplay loop muted>
+            <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
+          </video>
+      </div>
+      <div class="modal-footer">
+       <img src="./icons/7_logo_jp.PNG" alt="">
+      </div>
+    </div>
+  
+    </div>
+
+        <!-- Modal constrution-->
+        <div id="myModalConstrution" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>constrution et Peinture</h2>
+              </div>
+              <div class="modal-body">
+                <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
+                <video class="video-jardin" autoplay loop muted>
+                    <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+        
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <h3>Modal Footer</h3>
+              </div>
+            </div>
+          
+        </div>
+
+                <!-- Modal electricite-->
+                <div id="myModalElectricite" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h2>Electricité</h2>
+                      </div>
+                      <div class="modal-body">
+                        <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
+                        <video class="video-jardin" autoplay loop muted>
+                            <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                
+                        <p>Some text in the Modal Body</p>
+                        <p>Some other text...</p>
+                      </div>
+                      <div class="modal-footer">
+                        <h3>Modal Footer</h3>
+                      </div>
+                    </div>
+                  
+                    </div>
+
+   
+    
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

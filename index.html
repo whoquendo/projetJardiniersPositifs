@@ -18,21 +18,21 @@
         <img class="menu" src="/icons/icon_menu.svg" alt="menu">
 
         <div class="navbar-title">
-            <img class="img-logo" src="./icons/10_logo.PNG" alt="logo_jardiniers_Positifs">
+            <a href="/"><img class="img-logo" src="./icons/10_logo.PNG" alt="logo_jardiniers_Positifs"></a>
             <h1>JARDINIERS POSITIFS</h1>
         </div>
 
         <div class="nav-left">
             <ul>
-                <li><a href="#">À PROPOS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">CONTACTS</a></li>
+                <li><a href="#" class="button-apropos">À PROPOS</a></li>
+                <li><a href="#" class="button-services">SERVICES</a></li>
+                <li><a href="#" class="button-contacts">CONTACTS</a></li>
             </ul>
         </div>
 
         <div class="nav-rigth">
             <ul>
-                <li><a href="/">FR</a></li>
+                <li><a href="#">FR</a></li>
                 <li><a href="/indexnl.html">NL</a></li>
             </ul>
         </div>
@@ -40,9 +40,9 @@
         <!-- para el menu en mobil -->
             <div class="menu-mobil innactive">
                  <ul>
-                    <li><a href="#">À PROPOS</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#" class="button-apropos-mobil">À PROPOS</a></li>
+                    <li><a href="#" class="button-services-mobil">SERVICES</a></li>
+                    <li><a href="#" class="button-contacts-mobil">CONTACTS</a></li>
                 </ul>
             </div>
     </nav>
@@ -64,11 +64,8 @@
 
         <div class="info-carrousel">
             <h1 class="title-carrousel">DEVIS GRATUIT</h1>
-            <p class="parrafo-carrousel">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi doloribus fugiat accusantium laudantium numquam voluptatum, aliquam eos perferendis rem placeat incidunt fugit eum id! Corrupti nesciunt sequi rerum qui repudiandae!</p>
-            
-            <a href="#" class="button-contact">JE VUEX UN DEVIS</a>
-            
-            
+            <p class="parrafo-carrousel">Tous nos devis sont gratuits</p>
+            <a href="#" class="button-contact button-devis">JE VUEX UN DEVIS</a>
         </div>
     </section>
         
@@ -155,7 +152,7 @@
       </div>
       <div class="modal-body">
         <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
-        <video class="video-jardin" autoplay muted controls>
+        <video class=" video-services video-jardin" controls>
             <source src="./videos/video_jp_jardin1.mp4" type="video/mp4">
           </video>
       </div>
@@ -173,17 +170,17 @@
             <div class="modal-content">
               <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>constrution et Peinture</h2>
+                <h2>CONSTRUCTION ET PEINTURE</h2>
               </div>
               <div class="modal-body">
                 <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
-                <video class="video-jardin" autoplay muted>
+                <video class="video-services video-constrution" controls>
                     <source src="./videos/video_jp_constrution.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                   </video>
               </div>
               <div class="modal-footer">
-                <h3>Modal Footer</h3>
+                <img src="./icons/7_logo_jp.PNG" alt="">
               </div>
             </div>
           
@@ -196,21 +193,82 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h2>Electricité</h2>
+                        <h2>ÉLECTRICITÉ</h2>
                       </div>
                       <div class="modal-body">
                         <!-- <video src="./videos/Video_carrousel_jardin.mp4" width="100%" height="240" controls autoplay></video> -->
-                        <video class="video-jardin" autoplay loop muted>
+                        <video class="video-services video-electricite" autoplay loop muted>
                             <source src="./videos/Video_carrousel_jardin.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                           </video>
                       </div>
                       <div class="modal-footer">
-                        <h3>Modal Footer</h3>
+                        <img src="./icons/7_logo_jp.PNG" alt="">
                       </div>
                     </div>
                   
                     </div>
+
+                        <!-- Modal â propos-->
+    <div id="myModalApropos" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>NOUS SOMMES</h2>
+          </div>
+          <div class="modal-body">
+            <p>Nous avons à cœur de faire un travail honnête, rapide et bien fait.</p>
+          </div>
+          <div class="modal-footer">
+           <img src="./icons/7_logo_jp.PNG" alt="">
+          </div>
+        </div>
+      
+        </div>
+
+        
+                                                   <!-- Modal services-->
+    <div id="myModalServices" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>NOS SERVICES</h2>
+          </div>
+          <div class="modal-body">
+            <img src="./images/publicité_constrution_fr.PNG" alt="">
+          </div>
+        </div>
+      
+        </div>
+
+                                                           <!-- Modal contacts-->
+    <div id="myModalContacts" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>CONTACTS</h2>
+          </div>
+          <div class="modal-body">
+            <h2>GSM:</h2>
+                <P>+32 49 20 71 114</P>
+            <h2>E-mail</h2>
+                <p>jardinierspositifs@gmail.com</p>
+            <h2>Site Web</h2>
+                <p>jardinierspositifs.com</p>
+          </div>
+          <div class="modal-footer">
+            <img src="./icons/7_logo_jp.PNG" alt="">
+           </div>
+        </div>
+      
+        </div>
+
 
    
     

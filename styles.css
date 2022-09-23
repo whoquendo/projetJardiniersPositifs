@@ -222,7 +222,7 @@ nav{
   .info-carrousel p {
     font-size: var(--md);
     display: block;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
 
   .button-contact {
@@ -262,7 +262,7 @@ nav{
         width: 70%; */
         text-align: center;
         margin-bottom: 15px;
-        padding: 15px;
+        padding: 70px;
     }
 
     .servicios-info h2{
@@ -288,11 +288,6 @@ nav{
         width: 100%;
         border-radius: 25px;
         object-fit: cover;
-    }
-
-    .imagen-jardin {
-      width: 28%;
-      margin-right: 75px;
     }
 
     .video-services {
@@ -471,15 +466,16 @@ nav{
 
 .menu{
     display: block;
-    left: 10px;
+    padding: 25px;
     cursor: pointer;
 }
 
 
 nav{
     justify-content: space-around;
-    background: repeating-linear-gradient(45deg, var(--orange) 0%, var(--orange) 80%,
-         white 0, white);
+    /* background: repeating-linear-gradient(45deg, var(--orange) 0%, var(--orange) 80%,
+         white 0, white); */
+         background: var(--orange);
 
 }
 
@@ -491,6 +487,10 @@ nav{
 
 .nav-left {
     display: none;
+}
+
+.nav-rigth ul li a {
+  color: var(--white);
 }
 
 .container-carrousel {

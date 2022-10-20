@@ -45,6 +45,7 @@ var span5 = document.getElementsByClassName("close")[5];
 // When the user clicks the button, open the modal 
 btnJardin.onclick = function() {
   modalJardin.style.display = "block";
+  console.log(`es el video`);
   videoJardin.play();
 }
 
